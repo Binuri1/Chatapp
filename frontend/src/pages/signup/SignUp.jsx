@@ -77,7 +77,9 @@ const SignUp = () => {
 
 
                         <div className='flex items-center justify-center'>
-                            <button className="w-1/2 mt-4 text-black bg-blue-200 border rounded-full btn btn-sm hover:bg-blue-400">Signup</button>
+                            <button className="w-1/2 mt-4 text-black bg-blue-200 border rounded-full btn btn-sm hover:bg-blue-400" disabled={loading}>
+                                {loading ? <span className="loading loading-spinner"></span> : "SignUp"}
+                            </button>
                         </div>
                     </form>
                 </div>
