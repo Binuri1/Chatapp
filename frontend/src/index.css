@@ -11,22 +11,25 @@ body {
   width: 100%;
 }
 
-::-webkit-scrollbar {
+/* Add this custom class to ensure specific styling */
+.custom-scrollbar::-webkit-scrollbar {
   width: 8px;
 }
 
-::-webkit-scrollbar-track {
+.custom-scrollbar::-webkit-scrollbar-track {
   background: #555;
 }
 
-::-webkit-scrollbar-thumb {
-  background: #b19411;
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #121212;
   border-radius: 5px;
 }
 
-::-webkit-scrollbar-thumb:hover {
-  background: #b41515;
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #242424;
 }
+
+
 
 /* SHAKE ANIMATION ON HORIZONTAL DIRECTION */
 .shake {

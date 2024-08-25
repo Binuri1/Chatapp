@@ -17,7 +17,7 @@ const Messages = () => {
     }, [messages])
 
     return (
-        <div className="flex-1 px-4 overflow-auto custom-scrollbar">
+        <div className="flex-1 px-4 overflow-auto ">
             {/* Messages */}
 
             {!loading && messages.length > 0 && messages.map((message) => (
