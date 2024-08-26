@@ -29,27 +29,27 @@ To run Talkify locally, follow these steps:
    npm run server
 
 ## Usage
--Sign Up: Create a new account using your email and a secure password.
--Login: Access your account by logging in with your credentials.
--Start Chatting: Search for friends or join group chats to start messaging.
+- Sign Up: Create a new account using your email and a secure password.
+- Login: Access your account by logging in with your credentials.
+- Start Chatting: Search for friends or join group chats to start messaging.
 
 ## Technologies Used
 
 **Frontend:**
 
-~React
-~Tailwind CSS
-~React Router DOM
-~Socket.IO Client
+- React
+- Tailwind CSS
+- React Router DOM
+- Socket.IO Client
 
 **Backend:**
 
-~Node.js
-~Express
-~MongoDB
-~Socket.IO
-~bcryptjs for password hashing
-~JSON Web Tokens (JWT) for authentication
+- Node.js
+- Express
+- MongoDB
+- Socket.IO
+- bcryptjs for password hashing
+- JSON Web Tokens (JWT) for authentication
 
 
 
